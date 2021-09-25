@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/hangman"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/gemunulibre_bold"/>
+
+    <ImageView
+        android:id="@+id/ivBackgroundImage"
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img1"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitle"
+        app:layout_constraintStart_toStartOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        tools:src="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/play"
+        android:textColor="@color/black"
+        android:fontFamily="@font/gemunulibre_regular"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/ivBackgroundImage"
+        app:layout_constraintStart_toStartOf="@+id/ivBackgroundImage"
+        app:layout_constraintTop_toBottomOf="@+id/ivBackgroundImage" />
+
+    <Button
+        android:id="@+id/btnTimeAttack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/time_attack"
+        android:fontFamily="@font/gemunulibre_regular"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_background"
+        app:layout_constraintEnd_toEndOf="@+id/ivBackgroundImage"
+        app:layout_constraintStart_toStartOf="@+id/ivBackgroundImage"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay" />
+</androidx.constraintlayout.widget.ConstraintLayout>

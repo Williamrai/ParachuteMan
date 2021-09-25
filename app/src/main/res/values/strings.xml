@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Parachute Man</string>
+    <string name="hangman">Parachute Man</string>
+    <string name="play">PLay</string>
+    <string name="time_attack">Time Attack</string>
+    <string name="win">Congratulations! \n You saved my life!!</string>
+</resources>
