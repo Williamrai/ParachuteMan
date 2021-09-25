@@ -38,3 +38,7 @@ Inspired by Hangman and it looked fun to implement and it was a learning experie
 - More questions and answers
 - Create a server to get question and answer instead of using an array
 - Publish it in the playstore
+
+## DEMO
+<img src='parachuteman_demo.gif' alt='Video Walkthrough' />
+
