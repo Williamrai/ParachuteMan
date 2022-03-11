@@ -41,4 +41,5 @@ Inspired by Hangman and it looked fun to implement and it was a learning experie
 
 ## DEMO
 <img src='parachuteman_demo.gif' alt='Video Walkthrough' />
+blah blah blah 
 
